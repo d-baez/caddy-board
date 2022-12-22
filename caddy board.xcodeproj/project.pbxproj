@@ -49,6 +49,7 @@
 		02AB0AC82954179500A37AEA /* caddy boardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caddy boardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AB0ACC2954179500A37AEA /* caddy_boardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caddy_boardUITests.swift; sourceTree = "<group>"; };
 		02AB0ACE2954179500A37AEA /* caddy_boardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caddy_boardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02AB0ADC29541D6F00A37AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/caddysound1.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 				02AB0AAB2954179300A37AEA /* AppDelegate.swift */,
 				02AB0AAD2954179300A37AEA /* SceneDelegate.swift */,
 				02AB0AAF2954179300A37AEA /* ViewController.swift */,
+				02AB0ADD29541D6F00A37AEA /* caddysound1.m4a */,
 				02AB0AB12954179300A37AEA /* Main.storyboard */,
 				02AB0AB42954179400A37AEA /* Assets.xcassets */,
 				02AB0AB62954179400A37AEA /* LaunchScreen.storyboard */,
@@ -313,6 +315,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		02AB0ADD29541D6F00A37AEA /* caddysound1.m4a */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AB0ADC29541D6F00A37AEA /* Base */,
+			);
+			name = caddysound1.m4a;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -437,6 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EEYA3N6639;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "caddy board/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +455,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EEYA3N6639;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "caddy board/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
