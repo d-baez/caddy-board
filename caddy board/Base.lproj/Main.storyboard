@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_72" orientation="portrait" appearance="dark"/>
+    <device id="retina5_9" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -14,107 +14,178 @@
             <objects>
                 <viewController title="main" id="BYZ-38-t0r" customClass="ViewController" customModule="caddy_board" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URr-Eo-SWr">
-                                <rect key="frame" x="14" y="122" width="112" height="96"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adW-Qy-44C" userLabel="button4">
+                                <rect key="frame" x="3" y="255" width="116" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="BADA BING" titleAlignment="center"/>
-                                <connections>
-                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oQS-2A-6om"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcH-7w-mQh">
-                                <rect key="frame" x="155" y="122" width="120" height="96"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="Pea-xK-Yng"/>
-                                </constraints>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="HEHEHE 911" titleAlignment="center"/>
-                                <connections>
-                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cY0-W3-0SI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8as-uL-JmK">
-                                <rect key="frame" x="300" y="122" width="120" height="96"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="THATS FIRE" titleAlignment="center"/>
-                                <connections>
-                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SUp-1n-XFy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adW-Qy-44C">
-                                <rect key="frame" x="14" y="288" width="112" height="96"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="button" titleAlignment="center"/>
+                                <buttonConfiguration key="configuration" style="tinted" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="BASS BOOSTED">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYB-ck-Kyz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecn-2Q-3x3">
-                                <rect key="frame" x="155" y="288" width="120" height="96"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="fsr-Xk-ISV"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5l-37-COF" userLabel="button5">
+                                <rect key="frame" x="127" y="255" width="120" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="button"/>
+                                <buttonConfiguration key="configuration" style="tinted" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="YUP NOW IM SLAYYIN">
+                                            <attributes>
+                                                <font key="NSFont" size="17" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
-                                    <action selector="button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j64-Mf-CDS"/>
+                                    <action selector="button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vc1-7m-0QO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5l-37-COF">
-                                <rect key="frame" x="300" y="288" width="120" height="96"/>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecn-2Q-3x3" userLabel="button6">
+                                <rect key="frame" x="254" y="255" width="116" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="button" titleAlignment="center"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="CUNT">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" BEING SERVED">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
-                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NqH-HO-uMV"/>
+                                    <action selector="button6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="exS-r0-c6H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-L0-ykE">
-                                <rect key="frame" x="14" y="457" width="112" height="96"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URr-Eo-SWr" userLabel="button1">
+                                <rect key="frame" x="3" y="141" width="116" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="BADA BING">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" BADA BOOM">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oQS-2A-6om"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcH-7w-mQh" userLabel="button2">
+                                <rect key="frame" x="127" y="141" width="120" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="HEHEHE 911">
+                                            <attributes>
+                                                <font key="NSFont" size="22" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cY0-W3-0SI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8as-uL-JmK" userLabel="button3">
+                                <rect key="frame" x="255" y="141" width="116" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="YEA ITS FIRE">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SUp-1n-XFy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-L0-ykE">
+                                <rect key="frame" x="4" y="408" width="116" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="BADA BING" titleAlignment="center"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ZT-ML-LzJ">
-                                <rect key="frame" x="155" y="457" width="120" height="96"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="lHW-F6-QqO"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ZT-ML-LzJ">
+                                <rect key="frame" x="126" y="408" width="120" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="HEHEHE 911" titleAlignment="center"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J20-lF-5MP">
-                                <rect key="frame" x="300" y="457" width="120" height="96"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J20-lF-5MP">
+                                <rect key="frame" x="253" y="408" width="120" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="THAT'S FIRE" titleAlignment="center"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYP-oQ-xdg">
-                                <rect key="frame" x="14" y="610" width="112" height="96"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYP-oQ-xdg">
+                                <rect key="frame" x="2" y="594.33333333333337" width="116" height="34.333333333333371"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="BADA BING" titleAlignment="center"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewc-mu-CSx">
-                                <rect key="frame" x="155" y="610" width="120" height="96"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="Pa6-Lc-UIz"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewc-mu-CSx">
+                                <rect key="frame" x="126" y="594" width="120" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="HEHEHE 911" titleAlignment="center"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93v-Pb-Qj1">
-                                <rect key="frame" x="300" y="610" width="120" height="96"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93v-Pb-Qj1">
+                                <rect key="frame" x="253" y="593" width="120" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="THAT'S FIRE" titleAlignment="center"/>
@@ -122,35 +193,24 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YNH-HB-bG1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="IcH-7w-mQh" firstAttribute="centerX" secondItem="YNH-HB-bG1" secondAttribute="centerX" id="19P-XO-bum"/>
-                            <constraint firstItem="IcH-7w-mQh" firstAttribute="baseline" secondItem="URr-Eo-SWr" secondAttribute="baseline" id="39v-Ho-fEk"/>
-                            <constraint firstItem="ewc-mu-CSx" firstAttribute="baseline" secondItem="93v-Pb-Qj1" secondAttribute="baseline" id="3Af-xu-Mlu"/>
-                            <constraint firstItem="8as-uL-JmK" firstAttribute="leading" secondItem="IcH-7w-mQh" secondAttribute="trailing" constant="25" id="81y-AM-VKf"/>
-                            <constraint firstItem="P5l-37-COF" firstAttribute="leading" secondItem="Ecn-2Q-3x3" secondAttribute="trailing" constant="25" id="DrQ-t0-WiX"/>
-                            <constraint firstItem="J20-lF-5MP" firstAttribute="leading" secondItem="1ZT-ML-LzJ" secondAttribute="trailing" constant="25" id="G5g-fK-Ag3"/>
-                            <constraint firstItem="93v-Pb-Qj1" firstAttribute="leading" secondItem="ewc-mu-CSx" secondAttribute="trailing" constant="25" id="Jls-yv-XxP"/>
-                            <constraint firstItem="1ZT-ML-LzJ" firstAttribute="baseline" secondItem="J20-lF-5MP" secondAttribute="baseline" id="Mhc-Lj-l5f"/>
-                            <constraint firstItem="IcH-7w-mQh" firstAttribute="top" secondItem="YNH-HB-bG1" secondAttribute="top" constant="63" id="SKi-Qt-kAL"/>
-                            <constraint firstItem="Ecn-2Q-3x3" firstAttribute="baseline" secondItem="P5l-37-COF" secondAttribute="baseline" id="Voa-66-sRO"/>
-                            <constraint firstItem="IcH-7w-mQh" firstAttribute="baseline" secondItem="8as-uL-JmK" secondAttribute="baseline" id="ZLv-2p-KbW"/>
-                            <constraint firstItem="1ZT-ML-LzJ" firstAttribute="baseline" secondItem="ckn-L0-ykE" secondAttribute="baseline" id="c9w-2V-AwD"/>
-                            <constraint firstItem="Ecn-2Q-3x3" firstAttribute="leading" secondItem="adW-Qy-44C" secondAttribute="trailing" constant="29" id="jNP-3z-S4I"/>
-                            <constraint firstItem="1ZT-ML-LzJ" firstAttribute="leading" secondItem="ckn-L0-ykE" secondAttribute="trailing" constant="29" id="jON-1p-t0D"/>
-                            <constraint firstItem="ewc-mu-CSx" firstAttribute="leading" secondItem="tYP-oQ-xdg" secondAttribute="trailing" constant="29" id="q9V-yO-AZB"/>
-                            <constraint firstItem="IcH-7w-mQh" firstAttribute="leading" secondItem="URr-Eo-SWr" secondAttribute="trailing" constant="29" id="v5d-uc-Axt"/>
-                            <constraint firstItem="ewc-mu-CSx" firstAttribute="baseline" secondItem="tYP-oQ-xdg" secondAttribute="baseline" id="wGp-i0-88q"/>
-                        </constraints>
+                        <color key="tintColor" systemColor="secondaryLabelColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20.930232558139533" y="3.218884120171674"/>
+            <point key="canvasLocation" x="20" y="2.2167487684729066"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="opaqueSeparatorColor"/>
     <resources>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

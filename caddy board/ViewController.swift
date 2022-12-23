@@ -56,10 +56,10 @@ class ViewController: UIViewController {
 
     }
     @IBAction func button3(_ sender: UIButton)
-    //title : THATS FIRE
+    //title : YEA ITS FIRE
     {
         sender.isSelected = true
-        let soundURL = Bundle.main.url(forResource: "caddy-sound3.1",withExtension: "m4a")
+        let soundURL = Bundle.main.url(forResource: "caddy-sound3", withExtension: "m4a")
 
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
@@ -75,10 +75,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button4(_ sender: UIButton)
-    //title :
+    //title : *bass boosted *
     {
         sender.isSelected = true
-        let soundURL = Bundle.main.url(forResource: "soundname",withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "caddysound4",withExtension: "m4a")
 
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
@@ -94,10 +94,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button5(_ sender: UIButton)
-    //title :
+    //title : YUP NOW IM SLAYYING
     {
         sender.isSelected = true
-        let soundURL = Bundle.main.url(forResource: "soundname",withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "caddysound5",withExtension: "m4a")
 
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
@@ -112,5 +112,22 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func button6(_ sender: UIButton)
+    //title : o yea cunt being served
+    {
+        sender.isSelected = true
+        let soundURL = Bundle.main.url(forResource: "caddysound6",withExtension: "m4a")
+
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+            audioPlayer?.play()
+        } catch {
+            print("Error playing sound")
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + audioPlayer!.duration) {
+            // Set the button to the unselected state
+            sender.isSelected = false
+        }
+    }
 }
 
