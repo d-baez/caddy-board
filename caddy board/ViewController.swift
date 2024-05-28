@@ -129,5 +129,23 @@ class ViewController: UIViewController {
             sender.isSelected = false
         }
     }
+    
+    @IBAction func button7(_ sender: UIButton)
+    //title : boing
+    {
+        sender.isSelected = true
+        let soundURL = Bundle.main.url(forResource: "caddysound6",withExtension: "m4a")
+
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+            audioPlayer?.play()
+        } catch {
+            print("Error playing sound")
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + audioPlayer!.duration) {
+            // Set the button to the unselected state
+            sender.isSelected = false
+        }
+    }
 }
 

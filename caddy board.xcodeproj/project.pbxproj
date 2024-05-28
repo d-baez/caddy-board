@@ -20,6 +20,7 @@
 		02AB0AC32954179500A37AEA /* caddy_boardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB0AC22954179500A37AEA /* caddy_boardTests.swift */; };
 		02AB0ACD2954179500A37AEA /* caddy_boardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB0ACC2954179500A37AEA /* caddy_boardUITests.swift */; };
 		02AB0ACF2954179500A37AEA /* caddy_boardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB0ACE2954179500A37AEA /* caddy_boardUITestsLaunchTests.swift */; };
+		02AC5DE42C056736005D3281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC5DE32C056736005D3281 /* ViewController.swift */; };
 		02BE1C6629542D5C00504B53 /* caddysound2.1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02BE1C6529542D5B00504B53 /* caddysound2.1.mp3 */; };
 		02BE1C6B295566D500504B53 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BE1C6A295566D500504B53 /* Media.xcassets */; };
 		02BE1C6C2955676300504B53 /* caddy-sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 02BE1C6E2955676300504B53 /* caddy-sound1.m4a */; };
@@ -60,6 +61,7 @@
 		02AB0AC82954179500A37AEA /* caddy boardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caddy boardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AB0ACC2954179500A37AEA /* caddy_boardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caddy_boardUITests.swift; sourceTree = "<group>"; };
 		02AB0ACE2954179500A37AEA /* caddy_boardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caddy_boardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02AC5DE32C056736005D3281 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Sound board/Sound board/ViewController.swift"; sourceTree = "<group>"; };
 		02BE1C6529542D5B00504B53 /* caddysound2.1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = caddysound2.1.mp3; sourceTree = "<group>"; };
 		02BE1C6A295566D500504B53 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		02BE1C6D2955676300504B53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/caddy-sound1.m4a"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				02AB0AAB2954179300A37AEA /* AppDelegate.swift */,
 				02AB0AAD2954179300A37AEA /* SceneDelegate.swift */,
 				02AB0AAF2954179300A37AEA /* ViewController.swift */,
+				02AC5DE32C056736005D3281 /* ViewController.swift */,
 				02A5FD772955857600373346 /* caddysound6.m4a */,
 				02A5FD75295580D800373346 /* caddysound5.m4a */,
 				02A5FD7129557C4B00373346 /* caddysound4.m4a */,
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02AC5DE42C056736005D3281 /* ViewController.swift in Sources */,
 				02AB0AB02954179300A37AEA /* ViewController.swift in Sources */,
 				02AB0AAC2954179300A37AEA /* AppDelegate.swift in Sources */,
 				02AB0AAE2954179300A37AEA /* SceneDelegate.swift in Sources */,
